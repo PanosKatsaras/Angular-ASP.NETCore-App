@@ -1,0 +1,31 @@
+<div class="container">
+    <h1 class="mb-3 mt-3 text-center">Edit/Delete Employee</h1>
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <form #form="ngForm" (ngSubmit)="updateEmployee()">
+                    <div class="mb-3">
+                        <label for="name" class="form-label fw-bold">Name:</label>
+                        <input class="form-control mb-2" type="text" id="name" 
+                        name="name" [(ngModel)]="employeeDetails.name" placeholder="Name">
+                        <label for="email" class="form-label fw-bold">Email:</label>
+                        <input type="email" class="form-control mb-2" id="email" 
+                        name="email" [(ngModel)]="employeeDetails.email" placeholder="name@example.com">
+                        <label for="phone" class="form-label fw-bold">Phone:</label>
+                        <input class="form-control mb-2" type="text" inputmode="numeric" pattern="[0-9]*" id="phone" 
+                        name="phone" [(ngModel)]="employeeDetails.phone" placeholder="Phone number">
+                        <label for="salary" class="form-label fw-bold">Salary:</label>
+                        <input class="form-control mb-2" type="text" inputmode="numeric" pattern="[0-9]*" id="salary" 
+                        name="salary" [(ngModel)]="employeeDetails.salary" placeholder="Salary">
+                        <label for="department" class="form-label fw-bold">Department:</label>
+                        <input class="form-control mb-2" type="text" id="department" 
+                        name="department" [(ngModel)]="employeeDetails.department" placeholder="Department">
+                    </div>
+                    <button class="btn btn-primary me-2" type="submit">Save</button>
+                    <a class="btn btn-secondary" routerLink="/employees">Cancel</a>
+                </form>
+            </div>
+            <div class="col-3"></div>
+        </div>
+</div>
+

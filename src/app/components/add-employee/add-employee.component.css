@@ -1,0 +1,20 @@
+.form-control.ng-invalid.ng-touched {
+    border: 2px solid rgb(190, 1, 1);
+}
+.alert {
+    color:rgb(190, 1, 1);
+   
+}
+.is-invalid {
+    padding-left: 0px;
+    text-align:start;
+    margin-left: -1em;
+}
+form {
+    background-color: rgb(255, 239, 195);
+    padding: 3em;
+    border-radius: 1em;
+}
+   
+
+

@@ -1,0 +1,43 @@
+<div class="container">
+    <h1 class="mb-3 mt-3 text-center">Add New Employee</h1>
+        <div class="row">
+            <div class="col-3 sm-col-1"></div>
+            <div class="col-6 sm-col-4">
+                <form #form="ngForm" (ngSubmit)="addEmployee()">
+                    <div class="mb-3">
+                        <label for="name" class="form-label fw-bold">Name:</label>
+                        <input #name="ngModel" class="form-control mb-1" type="text" id="name" 
+                        name="name" [(ngModel)]="addEmployeeRequest.name" placeholder="Name" required>
+                        <div class="is-invalid"><small class="alert" *ngIf="name.invalid && name.touched">Required field. Please provide a valid name.</small></div>
+
+                        <label for="email" class="form-label fw-bold">Email:</label>
+                        <input #email="ngModel" type="email" class="form-control mb-1" id="email" 
+                        name="email" [(ngModel)]="addEmployeeRequest.email" placeholder="name@example.com" email required>
+                        <div class="is-invalid"><small class="alert" *ngIf="email.invalid && email.touched || email.errors?.['email']">
+                            Required field. Please provide a valid email.</small></div>
+
+                        <label for="phone" class="form-label fw-bold">Phone:</label>
+                        <input #phone="ngModel" class="form-control mb-1" type="text" inputmode="numeric" pattern="[0-9]*" minlength="10" id="phone" 
+                        name="phone" [(ngModel)]="addEmployeeRequest.phone" placeholder="Phone number" required>
+                        <div class="is-invalid"><small class="alert" *ngIf="phone.invalid && phone.touched || phone.errors?.['minlength']">
+                            Required field. Please provide a valid phone number of at least 10 digits.</small></div>
+
+                        <label for="salary" class="form-label fw-bold">Salary:</label>
+                        <input #salary="ngModel" class="form-control mb-1" type="text" inputmode="numeric" pattern="[0-9]*" minlength="4" id="salary" 
+                        name="salary" [(ngModel)]="addEmployeeRequest.salary" placeholder="Annual salary" required>
+                        <div class="is-invalid"><small class="alert" *ngIf="salary.invalid && salary.touched || salary.errors?.['minlength']">
+                            Required field. Please provide a valid salary.</small></div>
+
+                        <label for="department" class="form-label fw-bold">Department:</label>
+                        <input #department="ngModel" class="form-control mb-1" type="text" id="department" 
+                        name="department" [(ngModel)]="addEmployeeRequest.department" placeholder="Department" required>
+                        <div class="is-invalid"><small class="alert" *ngIf="department.invalid && department.touched">
+                            Required field. Please provide a valid department.</small></div>
+                    </div>
+                    <button [disabled]="form.invalid"  class="btn btn-primary me-2" type="submit">Save</button>
+                    <a class="btn btn-secondary" routerLink="/employees">Cancel</a>
+                </form>
+            </div>
+            <div class="col-3 sm-col-1"></div>
+        </div>
+</div>

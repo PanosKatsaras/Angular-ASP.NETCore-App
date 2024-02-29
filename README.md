@@ -15,7 +15,7 @@ Bootstrap Styling: Professionally styled using Bootstrap for a clean and consist
 
 CRUD Operations: Perform Create, Read, Update, and Delete operations effortlessly, allowing users to manage data efficiently.
 
-Validation Mechanisms: Implement comprehensive validation mechanisms at both the frontend and backend to ensure data integrity and user input reliability.
+Validation Mechanisms: Implement comprehensive form validation mechanisms at the frontend to ensure user input reliability.
 
 Microsoft SQL Server Database: Seamlessly connect to a Microsoft SQL Server database, ensuring a secure and efficient data storage solution for your application.
 

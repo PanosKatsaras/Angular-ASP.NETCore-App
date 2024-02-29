@@ -1,5 +1,8 @@
 # FullStack Project
 
+![FullStack_1](https://github.com/PanosKatsaras/Angular-ASP.NETCore-App/assets/93729093/7c48e43f-2aca-4af9-b1d8-09c404090ad6)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
 ## Development server

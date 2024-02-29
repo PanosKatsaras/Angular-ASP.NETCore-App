@@ -1,4 +1,4 @@
-# Angular-ASP.NETCore-Bootstrap FullStack Application
+# Angular-ASP.NETCore-Bootstrap Full-Stack Application
 
 ![fullstackImage](https://github.com/PanosKatsaras/Angular-ASP.NETCore-App/assets/93729093/f5f6f611-d1a4-4944-aadf-fed7f805146c)
 ![Image_2](https://github.com/PanosKatsaras/Angular-ASP.NETCore-App/assets/93729093/19892e61-a204-43ec-9079-34f1b814a288)

@@ -1,11 +1,25 @@
-# FullStack Project
+# Angular-ASP.NETCore-Bootstrap FullStack CRUD Application
 
 ![fullstackImage](https://github.com/PanosKatsaras/Angular-ASP.NETCore-App/assets/93729093/f5f6f611-d1a4-4944-aadf-fed7f805146c)
 ![Image_2](https://github.com/PanosKatsaras/Angular-ASP.NETCore-App/assets/93729093/19892e61-a204-43ec-9079-34f1b814a288)
 
-
+## Features
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
+
+Angular Frontend: Modern, responsive, and user-friendly single-page application (SPA) built with Angular for a dynamic and interactive user experience.
+
+ASP.NET Core Backend: A robust and scalable backend powered by ASP.NET Core, providing RESTful APIs for seamless communication with the frontend.
+
+Bootstrap Styling: Professionally styled using Bootstrap for a clean and consistent UI design, ensuring a great user experience across devices.
+
+CRUD Operations: Perform Create, Read, Update, and Delete operations effortlessly, allowing users to manage data efficiently.
+
+Validation Mechanisms: Implement comprehensive validation mechanisms at both the frontend and backend to ensure data integrity and user input reliability.
+
+Microsoft SQL Server Database: Seamlessly connect to a Microsoft SQL Server database, ensuring a secure and efficient data storage solution for your application.
+
+
 
 ## Development server
 

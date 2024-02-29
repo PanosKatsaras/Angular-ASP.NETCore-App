@@ -1,5 +1,6 @@
 # FullStack Project
 
+![fullstackImage](https://github.com/PanosKatsaras/Angular-ASP.NETCore-App/assets/93729093/f5f6f611-d1a4-4944-aadf-fed7f805146c)
 ![Image_1](https://github.com/PanosKatsaras/Angular-ASP.NETCore-App/assets/93729093/7c48e43f-2aca-4af9-b1d8-09c404090ad6)
 ![Image_2](https://github.com/PanosKatsaras/Angular-ASP.NETCore-App/assets/93729093/19892e61-a204-43ec-9079-34f1b814a288)
 

@@ -11,13 +11,13 @@ Angular Frontend: Modern, responsive, and user-friendly single-page application 
 
 ASP.NET Core Backend: A robust and scalable backend powered by ASP.NET Core, providing RESTful APIs for seamless communication with the frontend.
 
-Bootstrap Styling: Professionally styled using Bootstrap for a clean and consistent UI design, ensuring a great user experience across devices.
+Bootstrap Styling: Meticulously crafted with Bootstrap to deliver a polished and cohesive UI design.
 
 CRUD Operations: Perform Create, Read, Update, and Delete operations effortlessly, allowing users to manage data efficiently.
 
 Validation Mechanisms: Implement comprehensive form validation mechanisms at the frontend to ensure user input reliability.
 
-Microsoft SQL Server Database: Seamlessly connect to a Microsoft SQL Server database, ensuring a secure and efficient data storage solution for your application.
+Microsoft SQL Server Database: Seamlessly connect to a Microsoft SQL Server database, ensuring a secure and efficient data storage solution for the application.
 
 
 
